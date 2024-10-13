@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>15f</title>
+  <style>
+    body {
+      height: 3000px;
+    }
+
+    .a {
+      position: relative;
+      display: inline-block;
+    }
+
+    img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .b {
+      position: absolute;
+      top: 10px;
+      right: 0px;
+      background-color: black;
+      color: white;
+      padding: 8px 12px;
+      font-family: Arial;
+    }
+
+    .c {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(255, 254, 254, 0.5);
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .d {
+      background-color: white;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+      padding: 10px 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="a">
+    <img src="pic.jpg">
+    <div class="b">20% OFF</div>
+    <div class="c">
+      <button class="d">Add to Cart</button>
+    </div>
+  </div>
+</body>
+
+</html>

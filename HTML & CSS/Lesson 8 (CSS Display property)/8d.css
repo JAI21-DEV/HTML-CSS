@@ -1,0 +1,33 @@
+input{
+  border-radius: 8px;
+  border-width: 1px;
+  padding-left: 16px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-right: 16px;
+  font-size: 16px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  margin-bottom: 12px;
+}
+.a {
+  width: 148px;
+}
+.b{
+  width: 148px;
+}
+.c{
+  display: block;
+  width: 333px;
+}
+button{
+  padding-bottom: 12px;
+  padding-top: 12px;
+  background-color: rgb(47, 127, 231);
+  color: white;
+  width: 366px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>14f</title>
+    <style>
+      body{
+        height: 3000px;
+      }
+      .sidebar{
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+      }
+      .left{
+        background-color: black;
+        padding: 15px 10px;
+      }
+      img{
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+      }
+      .right{
+        background-color: rgb(43, 42, 42);
+        padding: 15px 15px;
+      }
+      .first{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 14px;
+        font-family: arial;
+        width: 150px;
+      }
+      .a{
+        color: white;
+        font-size: 14px;
+      }
+      .b{
+        color: gray;
+        font-size: 25px;
+      }
+      .second{
+        color: gray;
+        margin-bottom: 16px;
+        font-family: arial;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="left">
+        <div><img src="pic.jpg"></div>
+        <div><img src="pic.jpg"></div>
+        <div><img src="pic.jpg"></div>
+      </div>
+      <div class="right">
+        <div class="first">
+          <div class="a">INFO</div>
+          <div class="b">&#43;</div>
+        </div>
+        <div class="second">&#35; new-videos</div>
+        <div class="second">&#35; updates</div>
+        <div class="second">&#35; faq</div>
+      </div>
+    </div>
+  </body>
+</html>
